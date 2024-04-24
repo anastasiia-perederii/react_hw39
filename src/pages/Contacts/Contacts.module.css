@@ -1,0 +1,71 @@
+.contactsContainer {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.contactsTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.contactsTable th,
+.contactsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.contactsTable th {
+    background-color: #f2f2f2;
+}
+
+.contactsTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.contactsTable tr:hover {
+    background-color: #ddd;
+}
+
+.contactsTable td button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contactsTable td button:hover {
+    background-color: #45a049;
+}
+
+.contact-form {
+    margin-top: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
